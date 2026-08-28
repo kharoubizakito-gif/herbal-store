@@ -184,7 +184,7 @@
             
             <div class="form-group">
                 <label for="phone">رقم الهاتف:</label>
-                <input type="tel" id="phone" placeholder="06000000000" required>
+                <input type="tel" id="phone" placeholder="06XXXXXXXX" required>
             </div>
 
             <div class="form-group">
@@ -211,7 +211,8 @@
 
     <script>
         function sendToWhatsApp() {
-            const myPhoneNumber = "213778213540"; 
+            // غيّر هذا الرقم إلى رقم هاتفك في واتساب محلياً أو دولياً (مثال: 213xxxxxxxxx+)
+            const myPhoneNumber = "213XXXXXXXXX"; 
 
             const name = document.getElementById('name').value;
             const phone = document.getElementById('phone').value;
